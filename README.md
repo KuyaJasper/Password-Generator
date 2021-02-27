@@ -17,6 +17,8 @@ In the Javascript, I sorted everything under the function paramater given to us 
 
 After getting the JS where I wanted it to be, I noticed that the H2 tag in the HTML was not cenetered whenever I loaded the page. In the CSS file I centered it on the page whenever the site loaded to clean up the page.
 
+In the HTML, I cleaned up the buttons and the user input box to make it easier to understand upon first glance.
+
 
 Screenshot of finished site:
 
