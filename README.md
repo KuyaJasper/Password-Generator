@@ -8,4 +8,4 @@ I used previous assignments to help me come up with the math.
 
 Screenshot of finished site:
 
-![Screenshot of Paswword Generator](http://raw.github.com/KuyaJasper/Password-Generator/master/assets/Screenshot.png"Screen Shot of Password Generator")
+![Screenshot of Paswword Generator](http://raw.github.com/KuyaJasper/Password-Generator/master/assets/Screenshot.png "Screen Shot of Password Generator")
