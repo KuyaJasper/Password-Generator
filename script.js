@@ -28,6 +28,9 @@ function generatePassword() {
   var userinput = [];
 
   var HowmanyCharc = prompt("How many Characters do you want in your password? Choose between 8 and 128.");
+  if (HowmanyCharc < 8 || HowmanyCharc > 128 || isNaN(HowmanyCharc)) {  
+    return alert("Please choose a number between 8 - 128. Click on Red button to start over.")
+  }
   var numbers = confirm("Do you want numbers in your password?");
   var uppercases = confirm("Do you want uppercase letters in your password?");
   var lowercases = confirm("Do you want lowercase letters in your password?");
