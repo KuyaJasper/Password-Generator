@@ -25,7 +25,7 @@ function generatePassword() {
   var characterschoice = ["@", "#", "$", "%", "^", "&", "*", "(", ")", "-", "_", "=", "+"];
 
   var result = [];
-  var userinput = [];
+  var newPassword = [];
 
   var HowmanyCharc = prompt("How many Characters do you want in your password? Choose between 8 and 128.");
   if (HowmanyCharc < 8 || HowmanyCharc > 128 || isNaN(HowmanyCharc)) {  
@@ -63,8 +63,8 @@ function generatePassword() {
 
   for (var i = 0; i < HowmanyCharc; i++) {
 
-    userinput.push(result[Math.floor(Math.random() * result.length)]);
+    newPassword.push(result[Math.floor(Math.random() * result.length)]);
   }
 
-  return userinput.join("");
+  return newPassword.join("");
 }
